@@ -3,10 +3,10 @@ import type { AppProps } from 'next/app'
 import { useState } from 'react';
 import {GoogleLogin, GoogleLogout} from 'react-google-login';
 const { google } = require('googleapis');
-const CLIENT_ID = '342594362833-03cf0lfba838qp2i4c02kl8vb5o24sef.apps.googleusercontent.com';
-const CLIENT_SECRET = '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'
+const CLIENT_ID = '';
+const CLIENT_SECRET = ''
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = '1//04UqiO2roSeTRCgYIARAAGAQSNwF-L9IrDjLxgzrG8JaoPuRrbHjk5kFXD28eHCanSCeDM2xMcWjwiKaU5Ctz2dcMsbgtO5WK2e8'
+const REFRESH_TOKEN = ''
 const oAuth2Client = new google.auth.OAuth2(
   CLIENT_ID,
   CLIENT_SECRET,
